@@ -6,9 +6,13 @@ the folks that attended the talk. I won't be accepting pull requests in this rep
 
 *Don't use this repo* as anything other than to review what happened in the talk. 
 
-| type     | event | handler                     |
-| -------- | ----- | --------------------------- |
-| internal | n/a   | handle_event(:tick, socket) |
+| type     | event       | handler                                          |
+| -------- | ----------- | ------------------------------------------------ |
+| internal | n/a         | handle_info(:tick, socket)                       |
+| links    | phx-click   | handle_event("name", value, socket)              |
+| links    | phx-value   | handle_event("name", value, socket)              |
+| forms    | phx-change  | handle_event("suggest", %{field: value}, socket) |
+
 
 
 # Demo
