@@ -1,3 +1,11 @@
+# LiveCoding LiveView
+
+This fork is solely for the purpose of the Live Coding Liveview talk by Bruce Tate 
+in Chattanooga on 4/4/19. It's purpose is solely to make this repo available for
+the folks that attended the talk. I won't be accepting pull requests in this repo.
+
+*Don't use this repo* as anything other than to review what happened in the talk. 
+
 # Demo
 
 To start your Phoenix server:
