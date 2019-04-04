@@ -16,7 +16,7 @@ defmodule DemoWeb.TableLive do
       </form>
 
 
-      <table>
+      <table style="transform: rotate(0deg)" >
         <tr>
           <th>Name</th>
           <th>Value</th>
@@ -47,18 +47,6 @@ defmodule DemoWeb.TableLive do
         </tr>
         <tr>
           <td>Search Field focus</td>
-          <td>?</td>
-        </tr>
-        <tr>
-          <td>Search Field blur</td>
-          <td>?</td>
-        </tr>
-        <tr>
-          <td>Key up</td>
-          <td>?</td>
-        </tr>
-        <tr>
-          <td>Key down</td>
           <td>?</td>
         </tr>
       </table>
